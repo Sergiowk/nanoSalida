@@ -5,7 +5,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ApiService {
-  private apiUrl = 'http://ergast.com/api/f1'; 
+  private apiUrl = 'https://ergast.com/api/f1'; 
 
   constructor(private http: HttpClient) {
     console.log('Service Drivers')
